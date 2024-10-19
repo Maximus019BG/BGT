@@ -14,7 +14,7 @@ repositories {
 // Configure Gradle IntelliJ Plugin
 intellij {
     version.set("2024.2.3")
-    type.set("IU") // Target IDE Platform
+    type.set("IC") // Target IDE Platform
     plugins.set(listOf(/* Plugin Dependencies */))
 }
 
