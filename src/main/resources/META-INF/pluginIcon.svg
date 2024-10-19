@@ -1,0 +1,14 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#3BEA62;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#3C99CC;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#6B57FF;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <!-- Circle Background -->
+    <circle cx="50" cy="50" r="50" fill="url(#gradient)" />
+    <!-- Octocat Face -->
+    <path d="M30 40C27 40 25 42 25 45c0 5 5 5 5 5h10s5 0 5-5c0-3-2-5-5-5H30zm40 0c-3 0-5 2-5 5 0 5 5 5 5 5h10s5 0 5-5c0-3-2-5-5-5H70z" fill="#fff"/>
+    <path d="M50 60c-12 0-22-6-22-15s10-15 22-15 22 6 22 15-10 15-22 15z" fill="#fff"/>
+</svg>

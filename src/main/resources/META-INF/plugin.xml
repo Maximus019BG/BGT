@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>com.BGT.BGT</id>
+    <name>BGT</name>
+    <version>0.1.2</version>
+    <vendor url="https://github.com/Maximus019BG">Maximus019 github</vendor>
+    <description><![CDATA[
+    <b>Better GitHub Theme (BGT)</b> offers a beautifully crafted, modern theme for IntelliJ IDEA that elevates your coding experience. Tailored for developers who appreciate a sleek and stylish interface, this theme features:
+    <ul>
+        <li><b>Dark Mode:</b> A comfortable, low-light environment to reduce eye strain during long coding sessions.</li>
+        <li><b>Custom Color Scheme:</b> A carefully designed color palette that enhances syntax highlighting, with support for italicized text for improved readability.</li>
+        <li><b>GitHub-Inspired Design:</b> Aesthetic elements inspired by GitHub's dark mode, providing a familiar feel for users.</li>
+    </ul>
+    <br>
+    <b>Why Choose BGT?</b><br>
+    Enjoy a clear, focused design that promotes productivity and makes your coding environment not just functional, but enjoyable. Perfect for developers who thrive in dark themes and seek a visually appealing workspace.
+]]></description>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.BGT.BGT.themeProvider" path="/themes/themes.json"/>
+    </extensions>
+</idea-plugin>
